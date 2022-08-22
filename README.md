@@ -41,7 +41,7 @@ The audio_classifier dataset the code is divided into 6 parts:
         1. MFCC -  Mel-Frequency Cepstral Coefficients  
         2. Spectrograms
 
-        Spectrograms are a useful technique for visualising the spectrum of frequencies of a sound and how they vary during a very short period of time.
+    Spectrograms are a useful technique for visualising the spectrum of frequencies of a sound and how they vary during a very short period of time.
 
     But spectrograms does not take into consideration the quality of the same sound. So we make use mfcc which are much more sensitive and here mfcc uses quasi-logarithmic spaced frequency scale, which is more similar to how the human auditory system processes sounds.
 
@@ -50,6 +50,7 @@ The audio_classifier dataset the code is divided into 6 parts:
     We save the values extracted into a CSV file.
 
     Load the Data
+
         We load the data from the csv file. It consists of 3 columns. Features
             It consists of the mfcc values. 
         Class
@@ -59,6 +60,7 @@ The audio_classifier dataset the code is divided into 6 parts:
     We convert the index of classes to its class names that the tracks belong to.
 
     Model Creation
+    
     We split the data into X_train and X_test. We develop a sequential neural network with 2 hidden layers each with 100 units and a dropout value of 0.1, with relu as activation and an ouput layer with softmax as activation.
 
         Why Softmax?
