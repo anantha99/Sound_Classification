@@ -18,10 +18,13 @@ The preprocessing jupyter EDA (Exploratory Data Analysis) is done where we analy
 
 ### Model Development
 The audio_classifier dataset the code is divided into 6 parts:
+    
     Uploading the Data
+        
         1. We used a opendatasets library from jovian to load the dataset from the source. 
         2. We have unzipped the tar file and extracted all the contents of the file.
         3. We removed the file named '.DS_Store' in each of the dataset folder which is threat to the system.
+    
     Data Preprocessing
     
     1. It is the process of conversion of raw data into numerical features theat can be processed while preserving the original information.
