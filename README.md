@@ -1,4 +1,4 @@
-# Sound_Classification Using Deep Learning
+# Sound Classification Using Deep Learning
 
 This repository contains different projects on sound classification.
 ## Urban Sound Classification
