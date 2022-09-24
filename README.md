@@ -1,4 +1,4 @@
-# Sound Classification Using Deep Neural Networks
+# Urban Sound Classification Using Deep Neural Networks
 
 This repository contains different projects on sound classification.
 ## Urban Sound Classification
