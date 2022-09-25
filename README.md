@@ -12,6 +12,18 @@ The file consists of a audio file and metadata file.
 
 #### The Metadata file 
 This file contains meta-data information about every audio file in the dataset. The details maybe found [here](https://urbansounddataset.weebly.com/urbansound8k.html)
+## Technology Stack Used:
+
+### Library 
+1. **Keras** <br>
+2. **Numpy** <br>
+3. **Pandas** <br>
+4. **MatplotLib**<br>
+5. **Scipy**<br>
+### Frameworks 
+
+1. **PyTorch**
+2. **Scikit-Learn**
 
 ### Preprocessing 
 The preprocessing jupyter EDA (Exploratory Data Analysis) is done where we analyze different tracks in the dataset and find ways to process it and develop a model.
